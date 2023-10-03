@@ -18,10 +18,12 @@ export default defineType({
     defineField({
       name: 'thumbnail',
       title: 'Thumbnail',
-      type: 'image',
-      options: {
-        hotspot: true,
-      },
+      type: 'string',
+    }),
+    defineField({
+      name: 'url',
+      title: 'Url',
+      type: 'string',
     }),
     defineField({
       name: 'keywords',
